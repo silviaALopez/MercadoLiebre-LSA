@@ -1,0 +1,371 @@
+header {
+    font-family: 'Roboto'; 
+    background-color: #EAC926; 
+}
+  
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+  
+.caja-principal {
+    display: flex; 
+    justify-content: space-between;  
+}
+  
+.Img-log {
+    max-width: 85%; 
+    height: auto; 
+    margin: 5%;
+    width: 500px;
+}
+  
+.barra-busqueda {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    width: 800px;
+    height: auto;
+}
+.burger-menu {
+    display: none;
+}
+.barra-busqueda input {
+    width: 100%;
+    padding: 8px; 
+}
+    
+.barra-busqueda button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+    
+.register-barra {
+    display: flex; 
+    align-items: center; 
+}
+.iconos {
+    display: flex; 
+    align-items: center; 
+}
+.iconos i {
+    margin: 5%; 
+}
+.burger-menu {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 40px;
+ height: 40px;
+ background-color: #1259c3;
+ color: white;
+ border-radius: 5px;
+ cursor: pointer;
+}
+.venta-conteiner-2 {
+    display: none; 
+}
+.button-submit:hover {
+ background-color: #006aff;
+}
+.button-reset:hover {
+ background-color: #ff0000;
+}
+@media screen and (max-width: 700px) {
+ .opciones-arriba {
+  display: none; 
+ }
+  .burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #1259c3;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+  
+ .menu-container {
+    display: flex;
+    justify-content: center;
+ } 
+  
+ .boton-menu{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+  }
+}
+section {
+ text-align: center; 
+ padding: 2%;
+  
+}
+  
+section i {
+ font-size: 60px;
+}
+
+.buttons {
+ display: flex;
+ justify-content: space-around;
+}
+  
+.button-submit,
+  .button-reset {
+ font-size: 26px;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ transition: transform 0.3s, background-color 0.3s
+}
+  
+.button-submit {
+ background-color: #005effa2;
+ color: #fff;
+}
+  
+.button-reset {
+ background-color: #ff0000a7;
+ color: #fff;
+}
+  
+main{
+ height: auto;
+ background-color: gainsboro;
+ background-size: cover;
+ width: 100% 
+}
+.conteiner-form {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 50vh;
+}
+
+.formulario {
+ background-color: #EAC926;
+ border: 1px solid #ccc;
+ padding: 5%;
+ border-radius: 5px;
+ max-width: 55%;
+ width: 100%;
+}
+  
+.campos input[type="text"],
+  .campos input[type="password"] {
+ width: 97.5%;
+ padding: 10px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ margin-bottom: 10px;
+}
+button[type="submit"] {
+ background-color: #007bff;
+ color: #fff;
+ border: none;
+ padding: 10px 20px;
+ border-radius: 5px;
+ cursor: pointer;
+ max-width: 110%;
+ width: 100%;
+}
+  
+button[type="submit"]:hover {
+ background-color: #0056b3;
+}
+.boton-hamburguesa {
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    header {
+      font-family: 'Roboto'; 
+      background-color: #EAC926; 
+    }
+   .caja-principal {
+      display: flex; 
+      gap: 0; 
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+   img {
+      overflow: clip;
+   }
+    .Img-log {
+      position: relative;
+      left:0px ; 
+      top: 0px;
+      width: 600px; 
+      height: auto; 
+      padding: 5%;
+    }
+    .venta-conteiner {
+      padding: 30px;
+    }
+  
+    .barra-arriba {
+      display: flex; 
+      align-items: center; 
+      max-width: 150%; 
+      height: auto;
+    }
+    
+    .barra-arriba input {
+      width: 100%; 
+      padding: 8px; 
+    }
+    
+    .barra-arriba button {
+      background: transparent;
+      border: none;
+      cursor: pointer;
+    }
+    .barra-arriba {
+      display: none; 
+    }
+    .product-art {
+      display:contents;
+      justify-content: center; 
+      align-items: center;
+      margin: 0 auto; 
+    }
+    .burger-menu {
+      background-color: blue;
+      color: aliceblue;
+      display:block;
+      max-width: 50px;
+      padding: 15px 0;
+      border-radius: 8px;
+      text-align: center;
+      font-size: 18px;
+      margin: auto;
+    }
+
+
+}
+.barra-arriba {
+ display: flex; 
+ justify-content: space-between; 
+ padding: 20px;
+} 
+.barra-opciones {
+ display: flex; 
+ list-style: none; 
+ padding: 0;
+ margin: 0;
+}
+  
+.barra-arriba li,
+.register li {
+ margin-right: 15px; 
+}
+    
+.barra-arriba li a,
+.register-barra li a {
+ text-decoration: none; 
+}
+.register-barra i {
+ margin-left: 5px; 
+}
+.barra-arriba {
+ display: flex;
+ justify-content: space-between;
+ align-items: center; 
+ padding: 10px; 
+}   
+  
+footer {
+ display: flex;
+}
+
+@media screen and (max-width: 700px) {
+ .barra-arriba {
+     display: none; 
+   }
+  .burger-menu {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      background-color: #1259c3;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .barra-opciones {
+      display: flex;
+      justify-content: center;
+    }
+    .boton-hamburguesa {
+      display: flex;
+      justify-content: center;
+      padding: 2%;
+    }
+    .formulario{
+     background-color:  #EAC926;
+     padding: 10%;
+     max-width: 85%;
+     width: 100%;
+    }
+    .conteiner-form {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 30vh;
+    }  
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+ .formulario{
+     background-color:  #EAC926;
+     padding: 5%;
+     max-width: 80%;
+     width: 100%;
+    }
+ .conteiner-form {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 30vh;
+    }    
+}
+.titulo{
+    font-size: 30px; 
+} 
+a {
+ text-decoration: none;
+}
+  
+footer {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+  
+section {
+ text-align: center; 
+ padding: 2%;
+}
+  
+section i {
+ font-size: 60px;
+}
+  
+.icono-t,
+.icono-e,
+.icono-p {
+ font-size: 45px;
+ color:  #03264C;
+ transition: color 0.3s, transform 0.3s;
+}
+  
+  
+    
